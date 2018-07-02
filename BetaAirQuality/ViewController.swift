@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
+	
+	@IBOutlet weak var apiResponseLabel: UILabel!
+	
+	let disposeBag = DisposeBag()
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
