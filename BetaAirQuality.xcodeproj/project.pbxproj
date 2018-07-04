@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5B34D4D3155E7626FF6B6A61 /* Pods_BetaAirQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6487687C73B283EA2294215 /* Pods_BetaAirQuality.framework */; };
+		FF0A025820ECA490008D9A25 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A025720ECA490008D9A25 /* MapViewController.swift */; };
+		FF0A025A20ECF8AB008D9A25 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A025920ECF8AB008D9A25 /* PageViewController.swift */; };
+		FF0A025D20ECF8E8008D9A25 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A025C20ECF8E8008D9A25 /* GeoLocation.swift */; };
+		FF0A025F20ECF966008D9A25 /* CircularProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A025E20ECF966008D9A25 /* CircularProgressRing.swift */; };
+		FF0A026120ECF9C1008D9A25 /* APISubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026020ECF9C1008D9A25 /* APISubscription.swift */; };
+		FF0A026A20ED0E21008D9A25 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026920ED0E21008D9A25 /* Actions.swift */; };
+		FF12055620EBD39500D4005C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF12055520EBD39500D4005C /* Assets.xcassets */; };
+		FF12055820EC02A200D4005C /* Pollutant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12055720EC02A200D4005C /* Pollutant.swift */; };
+		FF12055A20EC030A00D4005C /* AirQualityReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12055920EC030A00D4005C /* AirQualityReport.swift */; };
+		FF12055D20EC034100D4005C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12055C20EC034100D4005C /* Request.swift */; };
+		FF6EE06220EAE97A00A2EF19 /* AirQualityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EE06120EAE97A00A2EF19 /* AirQualityAPI.swift */; };
 		FFBAE9A120E405CB008A8C3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBAE9A020E405CB008A8C3F /* AppDelegate.swift */; };
-		FFBAE9A320E405CB008A8C3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBAE9A220E405CB008A8C3F /* ViewController.swift */; };
+		FFBAE9A320E405CB008A8C3F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBAE9A220E405CB008A8C3F /* HomeViewController.swift */; };
 		FFBAE9A620E405CB008A8C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBAE9A420E405CB008A8C3F /* Main.storyboard */; };
-		FFBAE9A820E405CC008A8C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBAE9A720E405CC008A8C3F /* Assets.xcassets */; };
 		FFBAE9AB20E405CC008A8C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBAE9A920E405CC008A8C3F /* LaunchScreen.storyboard */; };
 		FFBAE9B520E40D6B008A8C3F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFBAE9B420E40D6B008A8C3F /* Podfile */; };
 /* End PBXBuildFile section */
@@ -20,14 +30,24 @@
 		31454DC8E67D3C5E2E6931A4 /* Pods-BetaAirQuality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetaAirQuality.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetaAirQuality/Pods-BetaAirQuality.debug.xcconfig"; sourceTree = "<group>"; };
 		5D8FDD7C61AFF23E12762BF5 /* Pods-BetaAirQuality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetaAirQuality.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetaAirQuality/Pods-BetaAirQuality.release.xcconfig"; sourceTree = "<group>"; };
 		E6487687C73B283EA2294215 /* Pods_BetaAirQuality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetaAirQuality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0A025720ECA490008D9A25 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FF0A025920ECF8AB008D9A25 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		FF0A025C20ECF8E8008D9A25 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		FF0A025E20ECF966008D9A25 /* CircularProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressRing.swift; sourceTree = "<group>"; };
+		FF0A026020ECF9C1008D9A25 /* APISubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISubscription.swift; sourceTree = "<group>"; };
+		FF0A026920ED0E21008D9A25 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		FF12055520EBD39500D4005C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BetaAirQuality/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FF12055720EC02A200D4005C /* Pollutant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pollutant.swift; sourceTree = "<group>"; };
+		FF12055920EC030A00D4005C /* AirQualityReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityReport.swift; sourceTree = "<group>"; };
+		FF12055C20EC034100D4005C /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		FF6EE06120EAE97A00A2EF19 /* AirQualityAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityAPI.swift; sourceTree = "<group>"; };
 		FFBAE99D20E405CB008A8C3F /* BetaAirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetaAirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBAE9A020E405CB008A8C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFBAE9A220E405CB008A8C3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFBAE9A220E405CB008A8C3F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FFBAE9A520E405CB008A8C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFBAE9A720E405CC008A8C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFBAE9AA20E405CC008A8C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFBAE9AC20E405CC008A8C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFBAE9B420E40D6B008A8C3F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FFBAE9B420E40D6B008A8C3F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF0A024920EC2F4D008D9A25 /* AirQualityAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FF6EE06120EAE97A00A2EF19 /* AirQualityAPI.swift */,
+				FF12055920EC030A00D4005C /* AirQualityReport.swift */,
+				FF12055720EC02A200D4005C /* Pollutant.swift */,
+			);
+			path = AirQualityAPI;
+			sourceTree = "<group>";
+		};
+		FF0A025B20ECF8DA008D9A25 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A025C20ECF8E8008D9A25 /* GeoLocation.swift */,
+				FF0A026920ED0E21008D9A25 /* Actions.swift */,
+				FF0A026020ECF9C1008D9A25 /* APISubscription.swift */,
+				FF0A025E20ECF966008D9A25 /* CircularProgressRing.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FF12055B20EC032000D4005C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FF12055C20EC034100D4005C /* Request.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FF6EE05D20EAE94000A2EF19 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A025920ECF8AB008D9A25 /* PageViewController.swift */,
+				FFBAE9A220E405CB008A8C3F /* HomeViewController.swift */,
+				FF0A025B20ECF8DA008D9A25 /* Extension */,
+				FF0A025720ECA490008D9A25 /* MapViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FF6EE05E20EAE94F00A2EF19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF6EE05F20EAE95700A2EF19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFBAE9A420E405CB008A8C3F /* Main.storyboard */,
+				FF12055520EBD39500D4005C /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF6EE06020EAE95F00A2EF19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FFBAE99420E405CB008A8C3F = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +164,13 @@
 		FFBAE99F20E405CB008A8C3F /* BetaAirQuality */ = {
 			isa = PBXGroup;
 			children = (
+				FF0A024920EC2F4D008D9A25 /* AirQualityAPI */,
+				FF12055B20EC032000D4005C /* Helpers */,
+				FF6EE06020EAE95F00A2EF19 /* ViewModel */,
+				FF6EE05F20EAE95700A2EF19 /* View */,
+				FF6EE05E20EAE94F00A2EF19 /* Model */,
+				FF6EE05D20EAE94000A2EF19 /* ViewController */,
 				FFBAE9A020E405CB008A8C3F /* AppDelegate.swift */,
-				FFBAE9A220E405CB008A8C3F /* ViewController.swift */,
-				FFBAE9A420E405CB008A8C3F /* Main.storyboard */,
-				FFBAE9A720E405CC008A8C3F /* Assets.xcassets */,
 				FFBAE9A920E405CC008A8C3F /* LaunchScreen.storyboard */,
 				FFBAE9AC20E405CC008A8C3F /* Info.plist */,
 			);
@@ -103,6 +189,7 @@
 				FFBAE99A20E405CB008A8C3F /* Frameworks */,
 				FFBAE99B20E405CB008A8C3F /* Resources */,
 				60822095A71796E937F7818C /* [CP] Embed Pods Frameworks */,
+				1A52A9E9466675C22479B734 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFBAE9AB20E405CC008A8C3F /* LaunchScreen.storyboard in Resources */,
-				FFBAE9A820E405CC008A8C3F /* Assets.xcassets in Resources */,
 				FFBAE9B520E40D6B008A8C3F /* Podfile in Resources */,
+				FF12055620EBD39500D4005C /* Assets.xcassets in Resources */,
 				FFBAE9A620E405CB008A8C3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +248,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1A52A9E9466675C22479B734 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BetaAirQuality/Pods-BetaAirQuality-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		60822095A71796E937F7818C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,11 +270,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BetaAirQuality/Pods-BetaAirQuality-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -204,8 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBAE9A320E405CB008A8C3F /* ViewController.swift in Sources */,
+				FF0A026A20ED0E21008D9A25 /* Actions.swift in Sources */,
+				FF0A026120ECF9C1008D9A25 /* APISubscription.swift in Sources */,
+				FF6EE06220EAE97A00A2EF19 /* AirQualityAPI.swift in Sources */,
+				FF12055D20EC034100D4005C /* Request.swift in Sources */,
+				FF12055820EC02A200D4005C /* Pollutant.swift in Sources */,
+				FFBAE9A320E405CB008A8C3F /* HomeViewController.swift in Sources */,
 				FFBAE9A120E405CB008A8C3F /* AppDelegate.swift in Sources */,
+				FF0A025F20ECF966008D9A25 /* CircularProgressRing.swift in Sources */,
+				FF12055A20EC030A00D4005C /* AirQualityReport.swift in Sources */,
+				FF0A025D20ECF8E8008D9A25 /* GeoLocation.swift in Sources */,
+				FF0A025820ECA490008D9A25 /* MapViewController.swift in Sources */,
+				FF0A025A20ECF8AB008D9A25 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

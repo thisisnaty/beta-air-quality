@@ -6,5 +6,7 @@ target 'BetaAirQuality' do
   use_frameworks!
 
   # Pods for BetaAirQuality
-pod 'RxSwift', '~> 4.0'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+  pod 'UICircularProgressRing', '~> 3.0'
 end
