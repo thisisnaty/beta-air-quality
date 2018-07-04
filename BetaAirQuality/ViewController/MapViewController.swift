@@ -13,6 +13,7 @@ import UIKit
 class MapViewController: UIViewController {
 	let locationManager = CLLocationManager()
 	@IBOutlet weak var mapView: MKMapView!
+	@IBOutlet weak var selectCoordinateButton: UIButton!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
