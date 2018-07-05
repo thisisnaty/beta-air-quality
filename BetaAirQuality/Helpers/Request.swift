@@ -15,7 +15,7 @@ struct Request {
 	}
 }
 
-let AQToken: String = "4964d1d79c658db4e97af1da0a48ddbec3491e80"
+let AQToken = APIKeys.airQuality
 
 func apiError(_ error: String) -> NSError {
 	return NSError(domain: "AirQualityAPI", code: -1, userInfo: [NSLocalizedDescriptionKey: error])

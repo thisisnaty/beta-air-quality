@@ -15,6 +15,8 @@
 		FF0A026120ECF9C1008D9A25 /* Subscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026020ECF9C1008D9A25 /* Subscriptions.swift */; };
 		FF0A026A20ED0E21008D9A25 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026920ED0E21008D9A25 /* Actions.swift */; };
 		FF0A026C20EDA8E7008D9A25 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026B20EDA8E7008D9A25 /* Coordinate.swift */; };
+		FF0A026E20EDC25B008D9A25 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026D20EDC25B008D9A25 /* APIKeys.swift */; };
+		FF0A027220EDC474008D9A25 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FF0A027120EDC474008D9A25 /* .gitignore */; };
 		FF12055620EBD39500D4005C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF12055520EBD39500D4005C /* Assets.xcassets */; };
 		FF12055820EC02A200D4005C /* Pollutant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12055720EC02A200D4005C /* Pollutant.swift */; };
 		FF12055A20EC030A00D4005C /* AirQualityReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12055920EC030A00D4005C /* AirQualityReport.swift */; };
@@ -38,6 +40,8 @@
 		FF0A026020ECF9C1008D9A25 /* Subscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriptions.swift; sourceTree = "<group>"; };
 		FF0A026920ED0E21008D9A25 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 		FF0A026B20EDA8E7008D9A25 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		FF0A026D20EDC25B008D9A25 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		FF0A027120EDC474008D9A25 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FF12055520EBD39500D4005C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BetaAirQuality/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		FF12055720EC02A200D4005C /* Pollutant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pollutant.swift; sourceTree = "<group>"; };
 		FF12055920EC030A00D4005C /* AirQualityReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityReport.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 		FF12055B20EC032000D4005C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FF0A026D20EDC25B008D9A25 /* APIKeys.swift */,
 				FF12055C20EC034100D4005C /* Request.swift */,
 			);
 			path = Helpers;
@@ -176,6 +181,7 @@
 				FFBAE9A020E405CB008A8C3F /* AppDelegate.swift */,
 				FFBAE9A920E405CC008A8C3F /* LaunchScreen.storyboard */,
 				FFBAE9AC20E405CC008A8C3F /* Info.plist */,
+				FF0A027120EDC474008D9A25 /* .gitignore */,
 			);
 			path = BetaAirQuality;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0A027220EDC474008D9A25 /* .gitignore in Resources */,
 				FFBAE9AB20E405CC008A8C3F /* LaunchScreen.storyboard in Resources */,
 				FFBAE9B520E40D6B008A8C3F /* Podfile in Resources */,
 				FF12055620EBD39500D4005C /* Assets.xcassets in Resources */,
@@ -324,6 +331,7 @@
 				FF0A025F20ECF966008D9A25 /* CircularProgressRing.swift in Sources */,
 				FF12055A20EC030A00D4005C /* AirQualityReport.swift in Sources */,
 				FF0A025D20ECF8E8008D9A25 /* GeoLocation.swift in Sources */,
+				FF0A026E20EDC25B008D9A25 /* APIKeys.swift in Sources */,
 				FF0A025820ECA490008D9A25 /* MapViewController.swift in Sources */,
 				FF0A025A20ECF8AB008D9A25 /* PageViewController.swift in Sources */,
 			);
