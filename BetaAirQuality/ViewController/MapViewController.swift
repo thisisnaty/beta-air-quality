@@ -9,22 +9,29 @@
 import CoreLocation
 import MapKit
 import UIKit
+import RxSwift
 
 class MapViewController: UIViewController {
 	let locationManager = CLLocationManager()
+	let pointAnnotation = MKPointAnnotation()
 	@IBOutlet weak var mapView: MKMapView!
 	@IBOutlet weak var selectCoordinateButton: UIButton!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		let longPress = UILongPressGestureRecognizer(target: self, action: #selector(MapViewController.mapLongPress(_:))) // colon needs to pass through info
-		//add gesture recognition
-		mapView.addGestureRecognizer(longPress)
+		setupGestureRecognizer()
+		setupAPISubscription()
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
+		selectCoordinateButton.isEnabled = false
 		setupGeoLocation()
+	}
+	
+	func setupGestureRecognizer() {
+		let longPress = UILongPressGestureRecognizer(target: self, action: #selector(MapViewController.mapLongPress(_:))) // colon needs to pass through info
+		mapView.addGestureRecognizer(longPress)
 	}
 	
 	func setupGeoLocation() {
@@ -42,12 +49,16 @@ class MapViewController: UIViewController {
 	}
 	
 	func addPinWithCoordinate(coordinate: CLLocationCoordinate2D) {
-		let newPin = MKPointAnnotation()
-		newPin.coordinate = coordinate
+		pointAnnotation.coordinate = coordinate
 		if(mapView.annotations.count > 0) {
 			mapView.removeAnnotations(mapView.annotations)
 		}
-		mapView.addAnnotation(newPin)
+		selectCoordinateButton.isEnabled = true
+		selectCoordinateButton.alpha = 1.0
+		mapView.addAnnotation(pointAnnotation)
+	}
+	
+	@IBAction func selectCoordinateButtonTapped(_ sender: AnyObject) {
 	}
 	
 	override func didReceiveMemoryWarning() {

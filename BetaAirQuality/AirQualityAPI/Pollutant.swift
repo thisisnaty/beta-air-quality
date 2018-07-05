@@ -17,6 +17,6 @@ struct Pollutant {
 	}
 	init(rawValue : [String: Any]) {
 		self.aqi = (rawValue["v"] as? Double)!
-		self.count = Int(ceil(self.aqi) * 3)
+		self.count = Int(ceil(self.aqi) * 1.5)
 	}
 }

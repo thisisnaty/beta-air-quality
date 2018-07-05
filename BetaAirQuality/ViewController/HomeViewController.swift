@@ -23,6 +23,7 @@ class HomeViewController: UIViewController {
 		super.viewDidLoad()
 		setupProgressRing()
 		setupAPISubscription()
+		setupCoordinateSubscription()
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
@@ -32,7 +33,7 @@ class HomeViewController: UIViewController {
 	
 	@IBAction func callApiButtonTapped(_ sender: AnyObject) {
 	}
-
+	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.

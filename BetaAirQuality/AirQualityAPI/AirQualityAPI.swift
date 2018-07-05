@@ -19,8 +19,7 @@ class DefaultAirQualityAPI {
 	static let sharedAPI = DefaultAirQualityAPI() // Singleton
 	
 	private func JSON(_ url: URL) -> Observable<Any> {
-		return URLSession.shared
-			.rx.json(url: url)
+		return URLSession.shared.rx.json(url: url)
 	}
 
 	func report(_ coordinates: CLLocationCoordinate2D) -> Observable<AirQualityReport> {
@@ -31,12 +30,18 @@ class DefaultAirQualityAPI {
 		
 		return JSON(url)
 			.map { jsonResult in
-				guard let json = jsonResult as? NSDictionary else {
-					throw exampleError("Parsing error")
-				}
+					guard let json = jsonResult as? NSDictionary else {
+						throw exampleError("Parsing error")
+					}
 				
-				return try AirQualityReport.parseJSON(json.value(forKey: "data") as! NSDictionary)
+					guard let jsonData = json.value(forKey: "data") as? NSDictionary else {
+						throw exampleError("Error getting data")
+					}
+				
+					return try AirQualityReport.parseJSON(jsonData
+					)
 			}
+			.retry(2)
 			.observeOn(MainScheduler.instance)
 	}
 }

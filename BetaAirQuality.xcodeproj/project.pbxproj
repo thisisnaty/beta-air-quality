@@ -12,8 +12,9 @@
 		FF0A025A20ECF8AB008D9A25 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A025920ECF8AB008D9A25 /* PageViewController.swift */; };
 		FF0A025D20ECF8E8008D9A25 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A025C20ECF8E8008D9A25 /* GeoLocation.swift */; };
 		FF0A025F20ECF966008D9A25 /* CircularProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A025E20ECF966008D9A25 /* CircularProgressRing.swift */; };
-		FF0A026120ECF9C1008D9A25 /* APISubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026020ECF9C1008D9A25 /* APISubscription.swift */; };
+		FF0A026120ECF9C1008D9A25 /* Subscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026020ECF9C1008D9A25 /* Subscriptions.swift */; };
 		FF0A026A20ED0E21008D9A25 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026920ED0E21008D9A25 /* Actions.swift */; };
+		FF0A026C20EDA8E7008D9A25 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A026B20EDA8E7008D9A25 /* Coordinate.swift */; };
 		FF12055620EBD39500D4005C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF12055520EBD39500D4005C /* Assets.xcassets */; };
 		FF12055820EC02A200D4005C /* Pollutant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12055720EC02A200D4005C /* Pollutant.swift */; };
 		FF12055A20EC030A00D4005C /* AirQualityReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12055920EC030A00D4005C /* AirQualityReport.swift */; };
@@ -34,8 +35,9 @@
 		FF0A025920ECF8AB008D9A25 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		FF0A025C20ECF8E8008D9A25 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
 		FF0A025E20ECF966008D9A25 /* CircularProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressRing.swift; sourceTree = "<group>"; };
-		FF0A026020ECF9C1008D9A25 /* APISubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISubscription.swift; sourceTree = "<group>"; };
+		FF0A026020ECF9C1008D9A25 /* Subscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriptions.swift; sourceTree = "<group>"; };
 		FF0A026920ED0E21008D9A25 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		FF0A026B20EDA8E7008D9A25 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		FF12055520EBD39500D4005C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BetaAirQuality/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		FF12055720EC02A200D4005C /* Pollutant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pollutant.swift; sourceTree = "<group>"; };
 		FF12055920EC030A00D4005C /* AirQualityReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityReport.swift; sourceTree = "<group>"; };
@@ -94,7 +96,7 @@
 			children = (
 				FF0A025C20ECF8E8008D9A25 /* GeoLocation.swift */,
 				FF0A026920ED0E21008D9A25 /* Actions.swift */,
-				FF0A026020ECF9C1008D9A25 /* APISubscription.swift */,
+				FF0A026020ECF9C1008D9A25 /* Subscriptions.swift */,
 				FF0A025E20ECF966008D9A25 /* CircularProgressRing.swift */,
 			);
 			path = Extension;
@@ -138,6 +140,7 @@
 		FF6EE06020EAE95F00A2EF19 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FF0A026B20EDA8E7008D9A25 /* Coordinate.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -311,7 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0A026A20ED0E21008D9A25 /* Actions.swift in Sources */,
-				FF0A026120ECF9C1008D9A25 /* APISubscription.swift in Sources */,
+				FF0A026C20EDA8E7008D9A25 /* Coordinate.swift in Sources */,
+				FF0A026120ECF9C1008D9A25 /* Subscriptions.swift in Sources */,
 				FF6EE06220EAE97A00A2EF19 /* AirQualityAPI.swift in Sources */,
 				FF12055D20EC034100D4005C /* Request.swift in Sources */,
 				FF12055820EC02A200D4005C /* Pollutant.swift in Sources */,
